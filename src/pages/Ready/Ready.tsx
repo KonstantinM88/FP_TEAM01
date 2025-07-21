@@ -26,7 +26,8 @@ const Ready: React.FC = () => {
           "url('https://images.unsplash.com/photo-1536520002442-39764a41e979?auto=format&fit=crop&w=1740&q=80')",
       }}
     >
-      <div className="bg-white/70 rounded-2xl p-8 shadow-2xl w-[600px] flex flex-col items-center text-center">
+      {/* <div className="bg-white/70 rounded-2xl p-8 shadow-2xl w-[600px] flex flex-col items-center text-center"> */}
+      <div className="bg-white/70 rounded-2xl p-6 md:p-8 shadow-2xl w-full max-w-md flex flex-col items-center text-center">
         <div className="relative mb-6">
           <div className="w-32 h-20 bg-brown-700 rounded-b-full relative z-10"></div>
           <div className="absolute top-2 right-[-18px] w-7 h-12 border-4 border-brown-700 rounded-full z-0"></div>

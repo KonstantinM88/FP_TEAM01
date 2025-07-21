@@ -17,7 +17,8 @@ const Brewing: React.FC = () => {
       className="w-full h-screen bg-cover bg-center bg-no-repeat flex items-center justify-center"
       
     >
-      <div className="bg-white/70 rounded-2xl p-20 shadow-xl w-[600px] flex flex-col items-center animate-fade-in text-center relative overflow-hidden">
+      {/* <div className="bg-white/70 rounded-2xl p-20 shadow-xl w-[600px] flex flex-col items-center animate-fade-in text-center relative overflow-hidden"> */}
+      <div className="bg-white/70 rounded-2xl p-8 md:p-20 shadow-xl w-full max-w-md flex flex-col items-center animate-fade-in text-center relative overflow-hidden">
         <div className="relative mb-8">
           <div className="w-32 h-20 bg-brown-700 rounded-b-full relative z-10"></div>
           <div className="absolute top-3 right-[-20px] w-8 h-12 border-[6px] border-brown-700 rounded-full z-0"></div>

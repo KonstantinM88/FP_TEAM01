@@ -16,7 +16,8 @@ export const Home = () => {
           "url('https://images.unsplash.com/photo-1605478088100-7d6a48b3a4f3?auto=format&fit=crop&w=1740&q=80')",
       }}
     >
-      <div className="bg-white/70 backdrop-blur-sm rounded-2xl p-12 shadow-2xl w-[600px] flex flex-col items-center text-center animate-fade-in">
+      {/* <div className="bg-white/70 backdrop-blur-sm rounded-2xl p-12 shadow-2xl w-[600px] flex flex-col items-center text-center animate-fade-in"> */}
+      <div className="bg-white/70 backdrop-blur-sm rounded-2xl p-6 md:p-12 shadow-2xl w-full max-w-md flex flex-col items-center text-center animate-fade-in">
         <h1 className="text-5xl font-extrabold mb-6 text-brown-900 drop-shadow">
           Добро пожаловать!
         </h1>

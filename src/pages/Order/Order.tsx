@@ -15,7 +15,8 @@ export default function Order() {
           "url('https://images.unsplash.com/photo-1536520002442-39764a41e979?auto=format&fit=crop&w=1740&q=80')",
       }}
     >
-      <div className="bg-white/70 rounded-2xl p-12 shadow-xl w-[600px] flex flex-col items-center text-center">
+      {/* <div className="bg-white/70 rounded-2xl p-12 shadow-xl w-[600px] flex flex-col items-center text-center"> */}
+      <div className="bg-white/70 rounded-2xl p-6 md:p-12 shadow-xl w-full max-w-md flex flex-col items-center text-center">
         <h2 className="text-3xl font-bold mb-8 text-brown-900 drop-shadow">
           Выберите напиток
         </h2>
